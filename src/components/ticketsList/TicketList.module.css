@@ -1,0 +1,12 @@
+.ticketsWrapper {
+  padding: 0 1rem;
+}
+.ticketList {
+  border: 1px solid var(--color-black);
+  height: 100%;
+  max-height: 100vh;
+  min-width: 40rem;
+  overflow: auto;
+
+  background-color: var(--color-dark-lighter);
+}

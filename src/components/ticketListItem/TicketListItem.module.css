@@ -1,0 +1,30 @@
+.ticketWrapper {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--color-black);
+  border-left: 4px solid transparent;
+  border-right: none;
+  padding: 0.7rem 0 0.7rem 0.6rem;
+  margin: 0.2rem 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: border 0.25s;
+}
+.ticketWrapper:last-child {
+  border-bottom: 1px solid var(--color-black);
+}
+
+.ticketWrapper:hover .ticketInfo {
+  color: var(--color-white);
+}
+
+.ticketInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  flex-grow: 1;
+  color: var(--color-grey);
+  font-size: 1.5rem;
+  transition: color 0.2s;
+}
